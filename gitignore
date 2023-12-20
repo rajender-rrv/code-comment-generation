@@ -55,6 +55,6 @@ docs/_build/
 .idea/
 .git
 .gitlab
-
+.evn
 
 .DS_Store

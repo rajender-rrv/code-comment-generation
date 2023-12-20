@@ -11,8 +11,11 @@ from langchain.llms import OpenAI
 from langchain.callbacks.base import BaseCallbackHandler
 
 from langchain.schema import AgentAction, LLMResult
+from dotenv import load_dotenv
 
-os.environ["OPENAI_API_KEY"] = "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"
+load_dotenv()
+
+# os.environ["OPENAI_API_KEY"] = "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"
 
 st.set_page_config(layout="wide")
 col1, col2 = st.columns(2, gap="small")
